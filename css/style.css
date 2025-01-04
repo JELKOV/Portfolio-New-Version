@@ -254,3 +254,90 @@ hr {
     background-image: linear-gradient(to bottom, #129296, #1a8c22);
     text-decoration: none;
   }
+
+
+  @media (max-width: 768px) {
+    /* 네비게이션 바 조정 */
+    .nav-bar {
+        position: static;
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        background-color: #0D7377; /* 배경색 추가 */
+    }
+
+    .nav-bar a {
+        display: block; /* 링크를 세로로 나열 */
+        margin: 5px 0;
+        font-size: 1rem; /* 글씨 크기 조정 */
+    }
+
+    /* 컨테이너 조정 */
+    .top-container, .middle-container, .bottom-container {
+        padding: 20px;
+        height: auto; /* 높이 자동 조정 */
+    }
+
+    /* 제목 폰트 크기 조정 */
+    h1 {
+        font-size: 3rem;
+        width: 100%; /* 제목 가운데 정렬 */
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    /* 이미지 크기 조정 */
+    .emoji-programmer {
+        width: 30px; /* 더 작은 크기 */
+    }
+
+    .main-image, .profile-deco, .profile-image, .skill-image-left, .skill-image-right {
+        width: 80%; /* 이미지 너비를 화면에 맞게 */
+        height: auto;
+        float: none; /* float 제거 */
+        margin: 20px auto; /* 가운데 정렬 */
+        display: block;
+    }
+
+    /* 스킬 섹션 텍스트 조정 */
+    .skill-content {
+        width: 100%; /* 텍스트 영역을 전체 너비로 */
+        text-align: center; /* 텍스트 가운데 정렬 */
+    }
+
+    .skill-content p {
+        font-size: 1rem; /* 글씨 크기 축소 */
+        margin: 10px 0;
+    }
+
+    /* 프로필 및 소개 텍스트 조정 */
+    .intro {
+        font-size: 1rem;
+        width: 90%; /* 너비를 줄여서 읽기 쉽게 */
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    /* 버튼 조정 */
+    .btn {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    /* 하단 푸터 조정 */
+    .bottom-container {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .footer-link {
+        display: block; /* 푸터 링크를 세로로 나열 */
+        margin: 10px 0;
+    }
+}
