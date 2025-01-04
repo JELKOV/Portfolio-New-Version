@@ -11,45 +11,123 @@
 </head>
 <body>
     <div class="top-container">
+        <nav class="nav-bar">
+            <a href="#intro-section">Introduction</a>
+            <a href="#skills-section">My Skills</a>
+            <a href="#contact-section">Contact</a>
+        </nav>
         <img class="emoji-programmer" src="images/programmeremoji.webp" alt="emoji-programmer">
         <h1>I'm AhnJaeHo</h1>
         <h2>Being a programmer</h2>
         <p>Portfolio Website</p>
         <img class="main-image" src="images/mainImage.webp" alt="future-feeling">
     </div>
-    <div class="middle-container">
+    <div class="middle-container" id="intro-section">
         <img class="profile-deco" src="https://media.giphy.com/media/KVr0JbrdBp9KX644Bk/giphy.gif" alt="GIF Image">
         <h2>Introduction</h2>
         <div class="profile">
           <img class="profile-image" src="images/AJH사진.jpg" alt="profile-image">  
           <h2>안녕하세요, 개발자 안제호입니다!</h2>
           <p class="intro">
-              끊임없이 도전하며 성장하는 풀스택 개발자입니다.<br>
-              Java와 Spring Framework를 기반으로 한 웹 애플리케이션 개발 경험과  
-              React를 활용한 프론트엔드 설계 역량을 갖추고 있습니다.<br> 
-              프로젝트를 통해 사용자 중심의 UI/UX와 안정적인 백엔드 시스템을 구현하며,  
-              AWS와 Docker를 활용한 배포 경험도 보유하고 있습니다.<br>
-              현재 Python과 Next.js를 공부하고 있습니다.<br>
-              새로운 기술과 문제 해결을 통해 함께 성장할 수 있기를 기대합니다.
-          </p>
+            <span class="highlight">끊임없이 도전하며 성장하는 풀스택 개발자입니다.</span><br><br>
+            Java와 Spring Framework를 기반으로 한 <strong>웹 애플리케이션 개발</strong> 경험과  
+            React를 활용한 <strong>프론트엔드 설계 역량</strong>을 갖추고 있습니다.<br><br>
+            프로젝트를 통해 <strong>사용자 중심의 UI/UX</strong>와 안정적인 백엔드 시스템을 구현하며,  
+            AWS와 Docker를 활용한 배포 경험도 보유하고 있습니다.<br><br>
+            현재 Python과 Next.js를 공부하며 새로운 기술을 습득하고 있습니다.<br><br>
+            <em>새로운 기술과 문제 해결을 통해 함께 성장할 수 있기를 기대합니다.</em>
+        </p>
         </div>
         <hr>
-        <div class="skills">
+        <div class="skills" id="skills-section">
             <img class="profile-deco" src="https://media.giphy.com/media/8pUgs7JXe4LBK/giphy.gif" alt="Skillful Pancake Flipping">
           <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="skill-image" src="https://media.giphy.com/media/8pUgs7JXe4LBK/giphy.gif" alt="Skillful Pancake Flipping">
-            <h3>JAVA</h3>
-            <p>내용</p>
-          </div>
-          <div class="skill-row">
-            <img class="skill-image" src="https://media.giphy.com/media/8pUgs7JXe4LBK/giphy.gif" alt="Skillful Pancake Flipping">
-            <h3>Javascript</h3>
-            <p>내용</p>
-          </div>
+            <div class="skill-row">
+                <img class="skill-image-left" src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" alt="Coding GIF">
+                <div class="skill-content">
+                <h3>Program Language</h3>
+                    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java Badge">
+                    <p>객체지향 설계 및 컬렉션 프레임워크 활용, Stream API를 통한 데이터 처리 최적화, Spring Framework를 사용한 백엔드 개발 경험이 있습니다.</p>
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge">
+                    <p>DOM 조작, 이벤트 처리, AJAX 비동기 통신 구현 경험이 있으며, jQuery와 fetch API를 활용한 데이터 처리와 상호작용을 구현했습니다.</p>
+                    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge">
+                    <p>Next.js와 React 기반 프로젝트에서 TypeScript를 활용하여 컴포넌트 설계 및 API 타입 정의를 경험했습니다.</p>
+                    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge">
+                    <p>Flask를 활용한 웹 애플리케이션 개발 경험이 있으며, Pandas를 통한 데이터 분석 및 데이터 처리를 구현했습니다.</p>
+                </div>
+            </div>
+        
+            <div class="skill-row">
+                <img class="skill-image-right" src="https://media.giphy.com/media/XaAbmtzzz35IgW3Ntn/giphy.gif" width="480" height="480" alt="Home Economics GIF">
+                <div class="skill-content">
+                <h3>Framework & Library</h3>
+                    <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring Framework Badge">
+                    <p>Spring MVC 기반의 백엔드 개발, 데이터베이스 연동, 트랜잭션 관리와 AOP 를 활용한 로깅 및 예외 처리에 익숙합니다.</p>
+                    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Badge">
+                    <p>React를 사용한 SPA 설계 경험이 있으며, Redux로 상태 관리와 컴포넌트 기반 UI 설계에 익숙합니다. RESTful API와 통합된 데이터 시각화도 가능합니다.</p>
+                    <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask Badge">
+                    <p>Contact Form 구현 및 동적 메시지 처리, Flask-WTF로 로그인 폼 생성 및 유효성 검증 기능을 적용한 경험이 있습니다.</p>
+                    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js Badge">
+                    <p>간단한 책 목록 관리 애플리케이션을 개발하여, App Router 방식으로 폴더 기반 라우팅과 RESTful API를 구현하고, 책 추가, 수정, 삭제, 검색 등의 CRUD 기능을 제공한 경험이 있습니다.</p>
+                    <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery Badge">
+                    <p>DOM 조작, 이벤트 처리, AJAX 비동기 통신, JSON 데이터 처리, 애니메이션 효과, 폼 검증, UI 컴포넌트 제어, 그리고 Cookie 및 Session 관리를 통해 동적 웹 애플리케이션을 구현했습니다.</p>
+                </div>
+            </div>
+                    
+            <div class="skill-row">
+                <img class="skill-image-left" src="https://media.giphy.com/media/vISmwpBJUNYzukTnVx/giphy.gif" alt="Funny GIF">
+                <div class="skill-content">
+                <h3>DBMS</h3>
+                    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL Badge">
+                    <p>정규화와 트랜잭션 관리를 통해 데이터 무결성을 유지하고 복잡한 쿼리를 최적화한 경험이 있습니다.</p>
+                    <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Badge">
+                    <p>테이블 설계와 데이터 관리에 중점을 두고, DDL과 DML로 데이터를 효율적으로 관리한 경험이 있습니다.</p>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <img class="skill-image-right" src="https://media.giphy.com/media/FfhVMLvxM1FnRwKCRl/giphy.gif" width="480" height="480" alt="GIF from GIPHY">
+                <div class="skill-content">
+                <h3>UI/UX & MarkUp Language</h3>
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
+                    <p>웹 페이지 구조 설계와 콘텐츠 포지셔닝 작업이 어느정도는 가능합니다.</p>
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge">
+                    <p>반응형 디자인, 레이아웃 최적화, 시각적 완성도를 높인 UI/UX 구현 경험이 있습니다.</p>
+                    <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap Badge">
+                    <p>반응형 네비게이션 바, 캐러셀, 가격 테이블 등 직관적인 UI 컴포넌트를 개발한적이 있습니다.</p>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <img class="skill-image-left" src="https://media.giphy.com/media/l4FsCBugoWDBUZ9O8/giphy.gif" width="480" height="480" alt="GIF from GIPHY">
+                <div class="skill-content">
+                <h3>Cloud & Deployment</h3>
+                    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Badge">
+                    <p>Docker를 활용한 컨테이너 기반 환경 구성 및 배포와 Spring MVC 프로젝트의 CI/CD 파이프라인 설계 경험이 있습니다.</p>
+                    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Badge">
+                    <p>AWS EC2와 RDS를 이용한 애플리케이션 배포 및 관리, RDS 마이그레이션, S3를 통한 정적 웹 호스팅과 백업 관리, Route53을 활용한 도메인 설정 및 DNS 관리 경험이 있습니다.</p>
+                </div>
+            </div>
+
+            <div class="skill-row">
+                <img class="skill-image-right" src="https://media.giphy.com/media/349qKnoIBHK1i/giphy.gif" alt="Reaction Programmers GIF">
+                <div class="skill-content">
+                <h3>Tools & Development Environment</h3>
+                    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge">
+                    <p>GitHub를 통해 코드 버전 관리 및 협업 프로젝트를 효율적인 형상관리를 통해 진행한 경험이 있습니다.</p>
+                    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman Badge">
+                    <p>Postman을 통해, REST API를 테스트하며, 요청 및 응답을 검증이 가능합니다.</p>
+                    <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSCode Badge">
+                    <p>VSCode를 활용해 다양한 작업과 디버깅을 수행하며 효율적으로 프로젝트를 완성했습니다.</p>
+                    <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Badge">
+                    <p>Jupyter Notebook으로 데이터 분석과 시각화를 수행한 경험이 여러번 있습니다.</p>
+                    <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm Badge">
+                    <p>PyCharm에서 Python 개발 환경을 구축하고 디버깅과 콘솔 사용법등을 익혀서 효율적인 코딩을 하였습니다.</p>
+                </div>
+            </div>
         </div>
         <hr>
-        <div class="contact-me">
+        <div class="contact-me" id="contact-section">
             <h2>Contact</h2>
             <h3>함께 성장하며 가치를 더하는 개발자가 되겠습니다.</h3>
             <p class="contact-message">
