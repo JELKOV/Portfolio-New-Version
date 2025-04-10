@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "MeetUps (모임의 숲)",
             description: "사용자가 모임 약속을 등록하고, 참여하고, 관리할 수 있는 풀스택 웹 애플리케이션.",
-            techStack: "Python, Pandas, Plotly, Jupyter Notebook",
+            techStack: "Next.js, NextAuth, MongoDB Atlas, React, KaKao Maps API, Varcel",
             gitHubLink: "https://github.com/JELKOV/Manage_Meeting",
             deployLink: "https://manage-meeting.vercel.app/",
             devLink: "https://jelkov-developer.notion.site/Next-js-1c9c23f30734800b9ae7e7fa8b789b10?pvs=4"
