@@ -36,6 +36,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const toyProjects = [
         {
+            title: "MeetUps (모임의 숲)",
+            description: "사용자가 모임 약속을 등록하고, 참여하고, 관리할 수 있는 풀스택 웹 애플리케이션.",
+            techStack: "Python, Pandas, Plotly, Jupyter Notebook",
+            gitHubLink: "https://github.com/JELKOV/Manage_Meeting",
+            deployLink: "https://manage-meeting.vercel.app/",
+            devLink: "https://jelkov-developer.notion.site/Next-js-1c9c23f30734800b9ae7e7fa8b789b10?pvs=4"
+        },
+        {
+            title: "Markdown Blog 만들기",
+            description: "Next.js Page Router 방식 기반의 정적 사이트 생성(SSG)과 서버리스 API라우트를 활용한 풀스택 블로그 사이트.",
+            techStack: "Next.js, React, API Routes, MongoDB Atlas, Varcel",
+            gitHubLink: "https://github.com/JELKOV/BLOG-SITE-By-Next.js-?tab=readme-ov-file",
+            deployLink: "https://blog-site-by-next-js.vercel.app/",
+            devLink: "https://jelkov-developer.notion.site/Next-js-1c2c23f30734807e89f8e94882954c45?pvs=4"
+        },
+        {
             title: "Space Missions Analysis (우주 발사 기록 분석)",
             description: "전 세계 우주 발사 데이터를 분석하여 발사 비용 변화, 조직별 발사 횟수, 냉전 시대 미사일 경쟁, 임무 성공률 등을 시각화하는 프로젝트.",
             techStack: "Python, Pandas, Plotly, Jupyter Notebook",
