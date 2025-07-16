@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const teamProjects = [
     {
       title: "코딩 퀴즈 (Coding Quiz)",
+      date: "2025.02 ~ 2025.03",
       description:
         "프로그래밍 언어(자바, 자바스크립트, 파이썬, CS) 기반의 문제를 풀고 랭킹을 기록하는 퀴즈 플랫폼",
       techStack:
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "비가 오는 날에는 (Heamul Pajeon)",
+      date: "2024.12",
       description:
         "강수량과 해물파전 검색량의 상관관계를 분석한 데이터 프로젝트. 기상 데이터와 검색 트렌드 데이터를 활용하여 시각화 및 예측 분석 수행.",
       techStack: "Python, Pandas, Matplotlib, Seaborn",
@@ -24,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "붕어빵 원정대",
       description: "붕어빵 판매 위치 공유 및 리뷰 시스템 구현",
+      date: "2024.08 ~ 2024.11",
       techStack:
         "Spring MVC, Java, JSP, JavaScript, jQuery, Oracle, MySQL, AWS, Docker",
       gitHubLink: "https://github.com/JELKOV/Deployfishshapedbread",
@@ -33,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "메모리제이슨",
+      date: "2022.04 ~ 2025.06",
       description:
         "특정 키워드나 정보에 맞는 이메일만 골라 자동으로 분류해주는 Outlook 이메일 분류 프로그램",
       techStack: "React, JavaScript, Axios, Redux, Node.js, MySQL, AWS",
@@ -46,6 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toyProjects = [
     {
       title: "RealCheck (현장 상황 공유 플랫폼)",
+      date: "2025.04 ~ 2025.07",
       description:
         "지금 이순간 벌어지고 있는 현장정보를 커뮤니티 형식으로 사람들이 공유하는 풀스택 웹 애플리케이션.",
       techStack:
@@ -57,6 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "OutLook 이메일 분류 프로그램",
+      date: "2025.04",
       description:
         "MS outlook안에서 받는 업무 이메일 중, 특정키워드나, 원하는 정보에 맞는 메일만 골라 자동으로 분류해주는 이메일 필터링 exe 프로그램.",
       techStack: "Python, tkinter, Microsoft 365 outlook, pyinstaller",
@@ -66,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "MeetUps (모임의 숲)",
+      date: "2025.04",
       description:
         "사용자가 모임 약속을 등록하고, 참여하고, 관리할 수 있는 풀스택 웹 애플리케이션.",
       techStack:
@@ -77,6 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Markdown Blog 만들기",
+      date: "2025.03 ~ 2025.04",
       description:
         "Next.js Page Router 방식 기반의 정적 사이트 생성(SSG)과 서버리스 API라우트를 활용한 풀스택 블로그 사이트.",
       techStack: "Next.js, React, API Routes, MongoDB Atlas, Varcel",
@@ -88,6 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Space Missions Analysis (우주 발사 기록 분석)",
+      date: "2025.03",
       description:
         "전 세계 우주 발사 데이터를 분석하여 발사 비용 변화, 조직별 발사 횟수, 냉전 시대 미사일 경쟁, 임무 성공률 등을 시각화하는 프로젝트.",
       techStack: "Python, Pandas, Plotly, Jupyter Notebook",
@@ -98,6 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Income Prediction Model (소득 예측 모델)",
+      date: "2025.03",
       description:
         "미국 청소년 종단 연구(NLSY97) 데이터를 활용하여 소득을 예측하는 다변량 회귀 모델을 구축. 교육 수준, 경력, 가구 소득 등의 변수가 소득에 미치는 영향을 분석.",
       techStack: "Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn",
@@ -108,6 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Flask E-commerce Project (전자상거래 웹사이트)",
+      date: "2025.02 ~ 2025.03",
       description:
         "Flask 기반의 전자상거래 플랫폼으로, 사용자 회원가입, 상품 관리, 장바구니, 결제 시스템(Toss Payments API 연동) 및 PostgreSQL 기반 데이터베이스를 활용하여 완전한 쇼핑몰 기능을 구현.",
       techStack:
@@ -120,6 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title:
         "Police Use of Force Data Analysis (미국 경찰 총격 사건 데이터 분석)",
+      date: "2025.02",
       description:
         "경찰 총격 사건 데이터와 미국 인구통계 데이터를 분석하여 사회적 추세를 이해하고, 경찰의 무력 사용 패턴을 탐구. 데이터 시각화를 통해 패턴을 도출하고 정책 개선에 활용 가능한 인사이트 제공.",
       techStack:
@@ -132,6 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "IMF DATA API (경제 데이터 분석 프로젝트)",
+      date: "2025.02",
       description:
         "IMF DataMapper API를 활용하여 전 세계 경제 데이터를 분석하고, Flask와 Pandas를 이용해 데이터를 처리하며, Matplotlib으로 그래프를 생성하는 프로젝트.",
       techStack:
@@ -143,6 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Space Invaders Game (스페이스 인베이더 게임)",
+      date: "2025.02",
       description:
         "Pygame을 활용하여 만든 클래식 슈팅 게임 'Space Invaders'를 리팩토링하고 개선한 프로젝트. 적과 플레이어의 상호작용을 최적화하고, 새로운 난이도 조절 기능과 사운드 효과를 추가함.",
       techStack: "Python, Pygame, OOP",
@@ -153,6 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Stock Market Web Scraper (주식 & 환율 크롤러)",
+      date: "2025.02",
       description:
         "네이버 금융(Naver Finance)에서 특정 종목의 주식 및 환율 데이터를 크롤링하는 Python 기반 자동화 프로젝트. GUI 기반으로 사용자가 종목을 선택하여 크롤링할 수 있으며, 일정 시간마다 자동으로 크롤링이 실행됨.",
       techStack: "Python, Selenium, Pandas, Tkinter, Schedule, CSV",
@@ -163,6 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Image Color Picker (이미지 색상 추출기)",
+      date: "2025.02",
       description:
         "사용자가 업로드한 이미지에서 가장 많이 사용된 색상 10개를 추출하는 웹 애플리케이션. FastAPI와 K-Means 클러스터링을 활용하여 색상을 분석하고, HEX 코드로 변환하여 UI에 표시.",
       techStack:
@@ -174,6 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Cafe & Wifi API (카페 & 와이파이 API)",
+      date: "2025.02",
       description:
         "사용자가 카페 정보를 공유하고 검색할 수 있는 API 기반 웹 애플리케이션. Flask를 활용하여 RESTful API를 제공하며, Swagger 문서를 통해 API를 문서화.",
       techStack:
@@ -185,6 +202,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "To-Do List Web App (할 일 관리 앱)",
+      date: "2025.01",
       description:
         "Flask 기반의 할 일 관리 웹 애플리케이션. 사용자가 작업을 추가, 수정, 삭제할 수 있으며, 카테고리 및 우선순위 기능이 포함됨.",
       techStack: "Python, Flask, SQLite, Jinja, Flask-WTF, Bootstrap",
@@ -195,6 +213,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "AI Reader Bot (AI 음성 리더 봇)",
+      date: "2025.01",
       description:
         "PDF 또는 텍스트 입력을 음성으로 변환하는 AI 기반 오디오 제작 시스템. Amazon Polly를 활용하여 한국어, 영어, 중국어 음성을 지원.",
       techStack: "Python, Flask, AWS Polly, PyPDF2, langdetect",
@@ -205,6 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Typing Speed App (타이핑 속도 측정 앱)",
+      date: "2025.01",
       description:
         "GitHub API에서 Java 코드 샘플을 가져와 타이핑 속도를 측정하는 애플리케이션. 정확도 및 WPM(분당 타자 수)을 실시간 계산.",
       techStack: "Python, Tkinter, GitHub API, dotenv",
@@ -215,6 +235,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Breakout Game (벽돌깨기 게임)",
+      date: "2025.01",
       description:
         "클래식 벽돌깨기 게임을 리메이크한 프로젝트. 패들을 조작하여 공을 튕기며 벽돌을 깨는 방식의 아케이드 게임.",
       techStack: "Python, Pygame, OOP",
@@ -225,6 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Watermark Application (이미지 워터마크 앱)",
+      date: "2025.01",
       description:
         "사용자가 이미지를 업로드하고, 커스터마이징 가능한 워터마크를 추가하여 저장할 수 있는 Python 기반 데스크톱 애플리케이션",
       techStack: "Python, Tkinter, Pillow (PIL), GUI Color Picker",
@@ -235,6 +257,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       title: "Write or Vanish (타이핑 훈련 앱)",
+      date: "2025.01",
       description:
         "사용자가 일정 시간 동안 글을 입력하지 않으면 모든 텍스트가 삭제되는 긴장감 넘치는 타이핑 훈련 앱",
       techStack: "Python, Tkinter, LocalStorage, GUI Timer",
@@ -261,10 +284,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
       projectElement.innerHTML = `
                 <h3>${project.title}</h3>
+                <p class="project-date">${project.date ?? ""}</p>
                 <p>${project.description}</p>
                 <span class="project-tech">${project.techStack}</span>
                 <div class="project-links">
-                    <a href="${project.gitHubLink}" target="_blank" class="github-link">🔗 GitHub 보기</a>
+                    <a href="${
+                      project.gitHubLink
+                    }" target="_blank" class="github-link">🔗 GitHub 보기</a>
                     ${deployLinkHtml}
                     ${devLinkHtml}
                 </div>
