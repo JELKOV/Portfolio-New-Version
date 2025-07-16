@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       techStack:
         "fastAPI, Next.js, Python, JavaScript, Sqlite, PostgreSQL, Docker, PM2, AWS",
       gitHubLink: "https://github.com/JAQuizProject/Coding_Quiz",
-      deployLink: "http://44.203.184.203:3000/",
+      deployLink: "",
       devLink:
         "https://jelkov-developer.notion.site/2025-1a8c23f3073480ae933ff8e7073daa73?pvs=4",
     },
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       techStack:
         "Spring MVC, Java, JSP, JavaScript, jQuery, Oracle, MySQL, AWS, Docker",
       gitHubLink: "https://github.com/JELKOV/Deployfishshapedbread",
-      deployLink: "http://fishshapedbread.com/",
+      deployLink: "",
       devLink:
         "https://jelkov-developer.notion.site/2024-8524d899429441a6ad5ae491862184de?pvs=4",
     },
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
       techStack:
         "Python, Flask, SQLAlchemy, Flask-Migrate, Flask-Login, BeatuifulSoup, PostgreSQL, Toss Payments API, Naver API, JavaScript, Bootstrap, SweetAlert2",
       gitHubLink: "https://github.com/JELKOV/Ecommerce-By-Python",
-      deployLink: "https://ecommerce-by-python.onrender.com/",
+      deployLink: "",
       devLink:
         "https://jelkov-developer.notion.site/by-Python-1a1c23f3073480b18bfded79acb67db3?pvs=4",
     },
@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
       techStack:
         "Python, FastAPI, Pillow, NumPy, scikit-learn, HTML, CSS, JavaScript, Render (배포)",
       gitHubLink: "https://github.com/JELKOV/IMAGE_COLOR_-PICKER",
-      deployLink: "https://image-color-picker-gv37.onrender.com/",
+      deployLink: "",
       devLink:
         "https://jelkov-developer.notion.site/IMAGE-COLOR-PICKER-PROJECT-194c23f30734801eb59ee11057317003?pvs=4",
     },
