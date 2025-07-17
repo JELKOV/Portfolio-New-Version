@@ -301,10 +301,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderProjects(teamProjects, "team-projects");
   renderProjects(toyProjects, "toy-projects");
-});
-
-// 네비게이션 메뉴 토글 기능
-document.addEventListener("DOMContentLoaded", () => {
+  
+  // 네비게이션 메뉴 토글 기능
   function toggleMenu() {
     const menu = document.querySelector(".nav-links");
     menu.classList.toggle("active");
